@@ -8,8 +8,51 @@ body{
     background-color: #0A151B;
 }
 
+h1{
+    font-family: "Zen Dots";
+}
+
+a{
+    font-family: "Chakra Petch";
+    cursor: pointer;
+}
+
 .navbar{
     background-color: #11323F;
-    height: 10vh;
+    height: 9vh;
     width: 100%;
+}
+
+.navbar-content{
+    display: flex;
+    height: 100%;
+}
+
+.links-buttons{
+    display: flex;
+    margin-left: auto;
+}
+
+.links-buttons a{
+    color: azure;
+    font-size:x-large;
+}
+
+.link-button{
+    display: flex;
+    border: 1px solid #382633;
+    background-color: #264755;
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.current-link{
+    border: 2px solid #EC2743;
+}
+
+.link-button:hover{
+    background-color: #11323F;
 }
