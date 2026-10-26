@@ -96,7 +96,7 @@ body{
     flex-direction: column;
     height: 100%;
     padding: 3%;
-    gap: 15rem;
+    gap: 8rem;
 }
 
 .hero-content .paragraph{
