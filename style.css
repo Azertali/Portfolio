@@ -113,7 +113,7 @@ body{
     color: #87E9A9;
 }
 
-.hero-content .myself{
+.hero-content .social{
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -156,6 +156,95 @@ body{
     background-color: #0A151B;
 }
 
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    height: 100%;
+    padding: 3%;
+}
+
+.myself{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.about-me{
+    border: 2px solid black;
+    flex-grow: 1;
+    max-width: 100%;
+    min-width: 45%;
+    padding: 3%;
+}
+
+.skills{
+    border: 2px solid black;
+    flex-grow: 1;
+    max-width: 100%;
+    min-width: 45%;
+    padding: 3%;
+}
+
+.feature-projects{
+    border: 2px solid black;
+    width: 100%;
+    padding: 3%;
+}
+
+.current-projects{
+    border: 2px solid black;
+    width: 100%;
+    padding: 3%;
+}
+
+.connect{
+    border: 2px solid black;
+    width: 100%;
+    padding: 3%;
+}
+
+.footer{
+    height: 75px;
+    width: 100%;
+    background-color: #11323F;
+}
+
+.footer-content{
+    padding-left: 2%;
+
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    gap: 1.5rem;
+}
+
+.footer-content .name{
+    color: beige;
+    display: flex;
+    align-items: center;
+}
+
+.footer-content .legal{
+    display: flex;
+    align-items: center;
+}
+
+.footer-content .legal a{
+    font-size: 1rem;
+}
+
+.footer-content .legal a:hover{
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.footer-content .made{
+    display: flex;
+    align-items: center;
+    max-width: 20%;
+}
+
 html{
     font-size: 40%;
 }
@@ -175,13 +264,19 @@ html{
         width: 50%;
     }
 
-    .hero-content .myself{
+    .hero-content .social{
         width: 40%;
     }   
 
     .link-button{
         width: 10rem;
     }
+
+    .myself{
+    flex-direction: row;
+    gap: 4rem;
+    }
+    
 }
 
 @media(min-width: 1024px){
@@ -199,11 +294,16 @@ html{
         width: 50%;
     }
 
-    .hero-content .myself{
+    .hero-content .social{
         width: 40%;
     }   
 
     .link-button{
         width: 10rem;
+    }
+
+    .myself{
+    flex-direction: row;
+    gap: 4rem;
     }
 }
