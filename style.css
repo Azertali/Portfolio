@@ -19,6 +19,10 @@ h2{
     font-family: "Chakra Petch";
 }
 
+h3 {
+    font-family: "Chakra Petch";
+}
+
 p{
     font-family: "Chakra Petch";
 }
@@ -151,7 +155,7 @@ body{
 }
 
 .main{
-    height: 150vh;
+    height: auto;
     width: 100%;
     background-color: #0A151B;
 }
@@ -171,11 +175,36 @@ body{
 }
 
 .about-me{
-    border: 2px solid black;
+    border: 0.25rem solid #294755;
+    border-radius: 2.5rem;
     flex-grow: 1;
     max-width: 100%;
     min-width: 45%;
-    padding: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.about-me .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me .content .title{
+    color: #79abc2;
+}
+
+.about-me .content .paragraph{
+    color: #79abc2;
+}
+
+.about-me .content .image{
+    border-radius: 2rem;
+    width: 75%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .skills{
