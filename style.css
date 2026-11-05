@@ -158,7 +158,9 @@ body{
     height: auto;
     width: 100%;
     background-color: #0A151B;
+    color: #79abc2;
 }
+
 
 .main-content{
     display: flex;
@@ -191,14 +193,6 @@ body{
     flex-direction: column;
 }
 
-.about-me .content .title{
-    color: #79abc2;
-}
-
-.about-me .content .paragraph{
-    color: #79abc2;
-}
-
 .about-me .content .image{
     border-radius: 2rem;
     width: 75%;
@@ -208,11 +202,20 @@ body{
 }
 
 .skills{
-    border: 2px solid black;
+    border: 0.25rem solid #294755;
+    border-radius: 2.5rem;
     flex-grow: 1;
     max-width: 100%;
     min-width: 45%;
-    padding: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.skills .content{
+    display: flex;
+    flex-direction: column;
 }
 
 .feature-projects{
