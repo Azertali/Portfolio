@@ -178,6 +178,7 @@ body{
 
 .about-me{
     border: 0.25rem solid #294755;
+    height: fit-content;
     border-radius: 2.5rem;
     flex-grow: 1;
     max-width: 100%;
@@ -193,9 +194,9 @@ body{
     flex-direction: column;
 }
 
-.about-me .content .image{
+.about-me .image{
     border-radius: 2rem;
-    width: 75%;
+    width: 55%;
     margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
@@ -216,6 +217,23 @@ body{
 .skills .content{
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+}
+
+.skills .paragraph{
+    width: 100%;
+}
+
+.skills .list-images{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.skills .image{
+    border-radius: 2rem;
+    width: 100%;
 }
 
 .feature-projects{
@@ -308,6 +326,10 @@ html{
     flex-direction: row;
     gap: 4rem;
     }
+
+    .about-me{
+        max-width: 45%;
+    }
     
 }
 
@@ -337,5 +359,22 @@ html{
     .myself{
     flex-direction: row;
     gap: 4rem;
+    }
+
+    .about-me {
+        max-width: 45%;
+    }
+
+    .skills .content{
+        flex-direction: row;
+    }
+
+    .skills .paragraph{
+        width: 58%;
+    }
+
+    .skills .list-images{
+        flex-direction: column;
+        width: 40%;
     }
 }
